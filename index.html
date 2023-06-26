@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+            integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>jogo-topdow</title>
 </head>
 <body>
@@ -14,12 +16,24 @@
         <img src="imgs/mapa.png" id="mapa">
         <img src="imgs/frente.gif" id="bonefrente">
         <img src="imgs/casa.png" id="casa">
+        <img src="imgs/direita.gif" id="bonedireita">
+        <img src="imgs/esquerda.gif" id="boneesquerda">
+        <img src="imgs/costas.gif" id="bonecostas">
+
+
+        <div class="joystick">
+        <button id="btncima"></button>
+        <button id="btnbaixo"></button>
+        <button id="btnesquerda"></button>
+        <button id="btndireita"></button>
+
+        </div>
+        <script src="js/jogo.js"></script>
     </div>
 
 
 
 
-    <script src="jogo.js"></script>
 
 </body>
 </html>

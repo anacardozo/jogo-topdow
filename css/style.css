@@ -27,3 +27,45 @@ body{
     width: 174px;
     height: 211px;
 }
+
+
+#btncima {
+    top: 450px;
+    border-bottom: 50px solid #808080;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    background: transparent;
+    left: 850px;
+    position:absolute;
+}
+
+#btnbaixo {
+    top: 550px;
+    border-top: 50px solid #808080;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin: 0 10px;
+    background: transparent;
+    left: 842px;
+    position:absolute;
+}
+
+#btnesquerda {
+    top: 505px;
+    border-left: 50px solid #808080;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    background: transparent;
+    left: 910px;
+    position:absolute;
+}
+
+#btndireita {
+    top: 505px;
+    border-right: 50px solid #808080;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    background: transparent;
+    left: 780px;
+    position:absolute;
+}

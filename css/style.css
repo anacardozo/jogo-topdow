@@ -15,57 +15,58 @@ body{
     position: absolute;
     left: 0;
     top: 0;
+    width: 50px;
 
 
 }
 
 #casa{
-    left: 595px;
-    top: 47px;
+    left: 890px;
+    top: 75px;
     z-index: 1000;
     position: absolute;
-    width: 218px;
-    height: 211px;
+    width: 340px;
+    height: 321px;
 }
 
 
 #btncima {
-    top: 450px;
+    top: 650px;
     border-bottom: 50px solid #808080;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     background: transparent;
-    left: 850px;
+    left: 1670px;
     position:absolute;
 }
 
 #btnbaixo {
-    top: 550px;
+    top: 750px;
     border-top: 50px solid #808080;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     margin: 0 10px;
     background: transparent;
-    left: 842px;
+    left: 1664px;
     position:absolute;
 }
 
 #btnesquerda {
-    top: 505px;
+    top: 713px;
     border-left: 50px solid #808080;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     background: transparent;
-    left: 910px;
+    left: 1750px;
     position:absolute;
 }
 
 #btndireita {
-    top: 505px;
+    top: 713px;
     border-right: 50px solid #808080;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     background: transparent;
-    left: 780px;
+    left: 1580px;
     position:absolute;
 }
